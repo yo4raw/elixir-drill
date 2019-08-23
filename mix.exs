@@ -1,9 +1,9 @@
-defmodule Drill.MixProject do
+defmodule ElixirDrill.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :drill,
+      app: :elixir_drill,
       version: "0.1.0",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
